@@ -77,7 +77,7 @@ export default function HomePage() {
                     <span className="text-indigo-900 font-bold">$10B Processed</span>
                   </div>
                   <h3 className="text-xl font-bold text-indigo-900 mb-4">Payment Systems</h3>
-                  <p className="text-gray-600">Engineered a Java-based automation framework supporting OTT Pay’s $10B in transactions, achieving 97%+ stability and cutting manual QA work by 70%</p>
+                  <p className="text-gray-600">Engineered a Java-based automation framework supporting OTT Pay's $10B in transactions, achieving 97%+ stability and cutting manual QA work by 70%</p>
                 </div>
 
                 <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform">
@@ -131,35 +131,42 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform">
-                <img
-                  src={ecommerceImg}
-                  alt="Tech Store Dashboard"
-                  className="w-full rounded-lg shadow-sm"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-indigo-900 mb-2">Tech Store</h3>
-                  <p className="text-gray-600 mb-4">
-                    An electronics e-commerce platform featuring product discovery, advanced filtering, and streamlined checkout with persistent user preferences.
-                  </p>
-                  <div className="space-y-4">
-                    <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">React</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Node.js</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Express.js</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">MongoDB</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Tailwind CSS</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Redux</span>
+              <a 
+                href="https://tech-store.jason-han.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform">
+                  <img
+                    src={ecommerceImg}
+                    alt="Tech Store Dashboard"
+                    className="w-full rounded-lg shadow-sm"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold text-indigo-900 mb-2">Tech Store</h3>
+                    <p className="text-gray-600 mb-4">
+                      An electronics e-commerce platform featuring product discovery, advanced filtering, and streamlined checkout with persistent user preferences.
+                    </p>
+                    <div className="space-y-4">
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">React</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Node.js</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Express.js</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">MongoDB</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Tailwind CSS</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Redux</span>
+                      </div>
+                      <ul className="text-gray-600 text-sm space-y-2">
+                        <li>• Product filtering by category and customer ratings</li>
+                        <li>• Persistent shipping address storage across sessions</li>
+                        <li>• User authentication and profile management</li>
+                        <li>• Shopping cart with real-time total calculations</li>
+                      </ul>
                     </div>
-                    <ul className="text-gray-600 text-sm space-y-2">
-                      <li>• Product filtering by category and customer ratings</li>
-                      <li>• Persistent shipping address storage across sessions</li>
-                      <li>• User authentication and profile management</li>
-                      <li>• Shopping cart with real-time total calculations</li>
-                    </ul>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </section>
         </div>
