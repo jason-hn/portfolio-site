@@ -68,7 +68,7 @@ export default function HomePage() {
                     <span className="text-indigo-900 font-bold">17% Improvement</span>
                   </div>
                   <h3 className="text-xl font-bold text-indigo-900 mb-4">DevOps Optimization</h3>
-                  <p className="text-gray-600">Led CI/CD modernization at Scotiabank, implementing automated testing and deployment pipelines that reduced release cycles by 40%.</p>
+                  <p className="text-gray-600">Automated CI/CD pipelines at Scotiabank, reducing manual oversight by 17% and accelerating production releases.</p>
                 </div>
                 
                 <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform">
@@ -77,7 +77,7 @@ export default function HomePage() {
                     <span className="text-indigo-900 font-bold">$10B Processed</span>
                   </div>
                   <h3 className="text-xl font-bold text-indigo-900 mb-4">Payment Systems</h3>
-                  <p className="text-gray-600">Architected high-throughput payment processing systems at OTT Pay, handling billions in transactions with 99.99% uptime.</p>
+                  <p className="text-gray-600">Engineered a Java-based automation framework supporting OTT Pay’s $10B in transactions, achieving 97%+ stability and cutting manual QA work by 70%</p>
                 </div>
 
                 <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform">
