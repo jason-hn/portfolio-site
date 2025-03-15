@@ -100,39 +100,46 @@ export default function HomePage() {
           <section id="projects" className="py-16">
             <h2 className="text-3xl font-bold text-indigo-900 mb-8">Featured Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform">
-                <div className="p-4 bg-gray-50">
-                  <img
-                    src={dashboardImg}
-                    alt="CashFlow Dashboard"
-                    className="w-full rounded-lg shadow-sm"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-indigo-900 mb-2">Cash Flow</h3>
-                  <p className="text-gray-600 mb-4">
-                    A modern personal finance tracker that helps users manage transactions, track budgets, and visualize spending patterns through interactive charts.
-                  </p>
-                  <div className="space-y-4">
-                    <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">React</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Node.js</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Express.js</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">MongoDB</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">TailwindCSS</span>
+              <a 
+                href="https://cash4low.netlify.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform">
+                  <div className="p-4 bg-gray-50">
+                    <img
+                      src={dashboardImg}
+                      alt="CashFlow Dashboard"
+                      className="w-full rounded-lg shadow-sm"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold text-indigo-900 mb-2">Cash Flow</h3>
+                    <p className="text-gray-600 mb-4">
+                      A modern personal finance tracker that helps users manage transactions, track budgets, and visualize spending patterns through interactive charts.
+                    </p>
+                    <div className="space-y-4">
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">React</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Node.js</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Express.js</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">MongoDB</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">TailwindCSS</span>
+                      </div>
+                      <ul className="text-gray-600 text-sm space-y-2">
+                        <li>• Real-time balance calculations and transaction tracking</li>
+                        <li>• Secure user authentication with Google OAuth 2.0 integration</li>
+                        <li>• Interactive charts for expense analysis</li>
+                        <li>• Budget management with progress tracking</li>
+                      </ul>
                     </div>
-                    <ul className="text-gray-600 text-sm space-y-2">
-                      <li>• Real-time balance calculations and transaction tracking</li>
-                      <li>• Secure user authentication with Google OAuth 2.0 integration</li>
-                      <li>• Interactive charts for expense analysis</li>
-                      <li>• Budget management with progress tracking</li>
-                    </ul>
                   </div>
                 </div>
-              </div>
+              </a>
 
               <a 
-                href="https://tech-store.jason-han.com" 
+                href="https://rococo-puppy-50ad2d.netlify.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"
