@@ -101,7 +101,7 @@ export default function HomePage() {
             <h2 className="text-3xl font-bold text-indigo-900 mb-8">Featured Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <a 
-                href="https://cash4low.netlify.app/" 
+                href="https://cashflow.jason-han.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"
@@ -139,7 +139,7 @@ export default function HomePage() {
               </a>
 
               <a 
-                href="https://rococo-puppy-50ad2d.netlify.app/" 
+                href="https://techstore.jason-han.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"
