@@ -99,14 +99,14 @@ export default function HomePage() {
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
           <section id="projects" className="py-16">
             <h2 className="text-3xl font-bold text-indigo-900 mb-8">Featured Projects</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 h-full">
               <a 
                 href="https://cashflow.jason-han.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block"
+                className="block h-full"
               >
-                <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform">
+                <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform h-full">
                   <div className="p-4 bg-gray-50">
                     <img
                       src={dashboardImg}
@@ -142,9 +142,9 @@ export default function HomePage() {
                 href="https://techstore.jason-han.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block"
+                className="block h-full"
               >
-                <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform">
+                <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform h-full">
                   <img
                     src={ecommerceImg}
                     alt="Tech Store Dashboard"
