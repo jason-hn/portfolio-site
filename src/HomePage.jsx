@@ -25,7 +25,7 @@ export default function HomePage() {
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center pt-32 pb-16">
             <h1 className="text-5xl font-bold text-indigo-900 mb-4">Jason Han</h1>
-            <p className="text-xl text-gray-600 mb-3">SDET @ Scotiabank</p>
+            <p className="text-xl text-gray-600 mb-3">Software Engineer @ Scotiabank</p>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Building scalable enterprise solutions with a focus on financial technology and distributed systems
             </p>
