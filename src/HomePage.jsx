@@ -157,12 +157,11 @@ export default function HomePage() {
                     </p>
                     <div className="space-y-4">
                       <div className="flex flex-wrap gap-2">
-                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">React</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Angular</span>
                         <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Node.js</span>
                         <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Express.js</span>
                         <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">MongoDB</span>
                         <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Tailwind CSS</span>
-                        <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm">Redux</span>
                       </div>
                       <ul className="text-gray-600 text-sm space-y-2">
                         <li>• Product filtering by category and customer ratings</li>
