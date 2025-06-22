@@ -41,59 +41,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* About Section - Gray background */}
-      <div className="bg-gray-50">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
-          <section id="about" className="py-16">
-            <div className="max-w-3xl mx-auto space-y-8">
-              <h2 className="text-3xl font-bold text-indigo-900 mb-8 text-center">About Me</h2>
-              <p className="text-lg leading-relaxed text-gray-600">
-                I specialize in developing high-performance, enterprise-grade applications that process billions in transactions. 
-                With experience at Scotiabank and National Bank of Canada, I bring a deep understanding of financial systems 
-                and scalable architecture.
-              </p>
-              <p className="text-lg leading-relaxed text-gray-600">
-                My engineering philosophy centers on building reliable, maintainable systems that stand the test of time and scale. 
-                I believe in pragmatic solutions that deliver real business value while maintaining technical excellence.
-              </p>
-            </div>
-
-            {/* Enhanced Achievements Section */}
-            <div className="mt-16">
-              <h2 className="text-2xl font-bold text-indigo-900 mb-8 text-center">Professional Impact</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-4xl">🚀</span>
-                    <span className="text-indigo-900 font-bold">17% Improvement</span>
-                  </div>
-                  <h3 className="text-xl font-bold text-indigo-900 mb-4">DevOps Optimization</h3>
-                  <p className="text-gray-600">Automated CI/CD pipelines at Scotiabank, reducing manual oversight by 17% and accelerating production releases.</p>
-                </div>
-                
-                <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-4xl">💳</span>
-                    <span className="text-indigo-900 font-bold">$10B Processed</span>
-                  </div>
-                  <h3 className="text-xl font-bold text-indigo-900 mb-4">Payment Systems</h3>
-                  <p className="text-gray-600">Engineered a Java-based automation framework supporting OTT Pay's $10B in transactions, achieving 97%+ stability and cutting manual QA work by 70%</p>
-                </div>
-
-                <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-4xl">📊</span>
-                    <span className="text-indigo-900 font-bold">$1.5B Portfolio</span>
-                  </div>
-                  <h3 className="text-xl font-bold text-indigo-900 mb-4">Financial Analysis</h3>
-                  <p className="text-gray-600">Developed microservices architecture for real-time securities pricing analysis, optimizing cloud resources and improving data accuracy.</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-
       {/* Projects Section - White background */}
       <div className="bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
