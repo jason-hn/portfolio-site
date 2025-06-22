@@ -126,7 +126,7 @@ export default function HomePage() {
       </div>
 
       {/* Contact Section - Gray background */}
-      <div className="">
+      <div className="bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
           <section id="contact" className="py-16">
             <div className="bg-white p-12 rounded-xl shadow-lg text-center">
