@@ -42,7 +42,7 @@ export default function HomePage() {
       </div>
 
       {/* Projects Section - White background */}
-      <div className="bg-white">
+      <div className="bg-gray-50">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
           <section id="projects" className="py-16">
             <h2 className="text-3xl font-bold text-indigo-900 mb-8">Featured Projects</h2>
@@ -126,7 +126,7 @@ export default function HomePage() {
       </div>
 
       {/* Contact Section - Gray background */}
-      <div className="bg-gray-50">
+      <div className="">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
           <section id="contact" className="py-16">
             <div className="bg-white p-12 rounded-xl shadow-lg text-center">
