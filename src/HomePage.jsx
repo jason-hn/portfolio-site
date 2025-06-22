@@ -12,7 +12,6 @@ export default function HomePage() {
               <span className="text-xl font-bold text-indigo-900">Jason Han</span>
             </div>
             <div className="flex items-center space-x-8">
-              <a href="#about" className="text-gray-600 hover:text-indigo-900">About</a>
               <a href="#projects" className="text-gray-600 hover:text-indigo-900">Projects</a>
               <a href="#contact" className="text-gray-600 hover:text-indigo-900">Contact</a>
             </div>
