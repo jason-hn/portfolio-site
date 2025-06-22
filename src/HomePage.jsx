@@ -129,7 +129,7 @@ export default function HomePage() {
       <div className="bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
           <section id="contact" className="py-16">
-            <div className="bg-white p-12 rounded-xl shadow-lg text-center">
+            <div className="bg-gray-50 p-12 rounded-xl shadow-lg text-center">
               <h2 className="text-3xl font-bold text-indigo-900 mb-4">Let's Build Something Great</h2>
               <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
                 I'm always interested in challenging projects that push the boundaries of scalable system design. 
